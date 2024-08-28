@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family:  monospace; */
+}
+
+.login {
+    height: 100vh;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_conatiner {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login_conatiner img {
+    width: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.login_conatiner Button {
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(48, 154, 48) !important;
+    padding: 10px 15px;
+}

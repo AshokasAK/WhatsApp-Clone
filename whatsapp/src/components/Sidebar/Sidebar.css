@@ -1,0 +1,73 @@
+.app {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #dadbd3;
+}
+
+.app_body {
+    display: flex;
+    background-color: #ededed;
+    margin-top: -50px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-right: 2px solid lightgray;
+}
+
+.sidebar_headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+/* .sidebar_headerRight > .MuiSvgIcon-root{
+    margin-right: 2vw !important;
+    font-size: 54px !important;
+} */
+.sidebar_search {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 39px;
+    padding: 10px;
+}
+
+.sidebar_searchcontainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+/* .sidebar_searchcontainer > .MuiSvgIcon-root{
+    color:red !important;
+    padding:px
+ } */
+.sidebar_searchcontainer>input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.sidebar_chats {
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+}
