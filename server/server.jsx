@@ -17,7 +17,13 @@ const pusher = new Pusher({
 });
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://deploy-mern-1whq.vercel.app
+    methods: ["POST", "GET"],
+    credentials: truetrue 
+  }
+));
 
 const DB_URL =
   "mongodb+srv://ashokkumarmoff:HSpcMK5ynM7CT8wd@whatsappclone.kmiphdx.mongodb.net/?retryWrites=true&w=majority&appName=whatsappclone";
